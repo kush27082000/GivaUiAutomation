@@ -1,0 +1,58 @@
+Page Class - IndexPage
+TestClass - IndexPageTest
+TestCases -  myStoreLogo Test                          Expected Result - Logo Should be Present
+TestCases -  myStoreTitle                              Expected Result - Title Should be Match with Expected value
+
+
+
+
+Page Class - LoginPage
+TestClass - LoginPageTest
+TestCases -  login Test                                Expected Result - User Should be Able to Login
+
+Page Class - HomePage
+TestClass - HomePageTest
+TestCases -  wishListTest                              Expected Result - WishList Should be Displayed
+TestCases -  orderHistoryDetailsTest                   Expected Result - OrderHistory Should be displayed
+
+Page Class - AccountCreationPage
+TestClass - AccountCreationTest
+TestCases -  createAccountTest                         Expected Result - User Should be Able to Navigate To Create Account Page
+
+
+Page Class - SearchResultPage
+TestClass - SearchResultPageTest
+TestCases -  product Avialblility Test                 Expected Result - Search Product and Prodcut should be displayed
+
+
+Page Class - AddToCartPage
+TestClass - AddToCartPageTest
+TestCases -  add to cart test                          Expected Result - User Should be able to add the product to cart
+
+
+Page Class - OrderPage
+TestClass -
+TestCases -                                            Expected Result -
+
+
+Page Class - AddressPage
+TestClass - OrderPagePageTest
+TestCases -  price test                                Expected Result - validate The price on OrderPage
+
+Page Class - ShippingPage
+TestClass -
+TestCases -                                            Expected Result -
+
+Page Class - PaymentPage
+TestClass -
+TestCases -                                            Expected Result -
+
+
+Page Class - OrderSummaryPage
+TestClass -
+TestCases -                                            Expected Result -
+
+
+Page Class - OrderConfirmationPage
+TestClass -  EndToEndTest
+TestCases - endToendtest                               Expected Result - User Should be Able to Order The Product

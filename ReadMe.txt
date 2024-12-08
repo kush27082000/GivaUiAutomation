@@ -30,3 +30,21 @@
          go to https://github.com/settings/keys
          Click New SSH key.
          Paste the key into the Key field and click Add SSH key.
+
+
+
+##Selenium Code -
+https://www.youtube.com/watch?v=2yDLEgSTG_c
+
+
+
+Agenda-
+   Framework Architecture
+   Navigation and Manual Cases
+   Update Pom.xml
+   Create Config.Pro
+   Create BaseClass and ActionDriver Class
+   Write page objects and methods in page class
+
+
+

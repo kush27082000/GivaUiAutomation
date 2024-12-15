@@ -27,7 +27,7 @@ public class Action extends BaseClass implements ActionInterface {
     @Override
     public void click(WebDriver ldriver, WebElement ele) {
         //build().perform() method is necessary for any Action classes
-         Actions act = new Actions(driver);
+         Actions act = new Actions(ldriver);
          act.moveToElement(ele).click().build().perform();
     }
 
@@ -205,7 +205,7 @@ public class Action extends BaseClass implements ActionInterface {
     public boolean switchToFrameByIndex(WebDriver driver, int index) {
         boolean flag = false;
         try {
-            new WebDriverWait(driver, Duration.ofMillis(15000)).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//iframe")));
+            new WebDriverWait(driver, 15000).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//iframe")));
             driver.switchTo().frame(index);
             flag = true;
             return true;
@@ -628,7 +628,7 @@ public class Action extends BaseClass implements ActionInterface {
 
     @Override
     public void explicitWait(WebDriver driver, WebElement element, int timeOut) {
-        WebDriverWait wait = new WebDriverWait(driver,Duration.ofMillis(timeOut*1000));
+        WebDriverWait wait = new WebDriverWait(driver,(timeOut));
         wait.until(ExpectedConditions.visibilityOf(element));
     }
 

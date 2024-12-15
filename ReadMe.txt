@@ -33,11 +33,6 @@
 
 
 
-##Selenium Code -
-https://www.youtube.com/watch?v=2yDLEgSTG_c
-
-
-
 Agenda-
    Framework Architecture
    Navigation and Manual Cases
